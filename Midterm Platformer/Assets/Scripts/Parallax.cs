@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Parallax : MonoBehaviour
 {
+    //https://www.youtube.com/watch?v=zit45k6CUMk to get the background to move 
     private float _length;
     private float _startPos;
 

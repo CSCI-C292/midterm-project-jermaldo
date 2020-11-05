@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class BossRun : StateMachineBehaviour
 {
+    //Used https://www.youtube.com/watch?v=AD4JIXQDw0s For help here
+    
     public Transform _player;
     public Rigidbody2D _rb;
     public float _speed = 1.5f;

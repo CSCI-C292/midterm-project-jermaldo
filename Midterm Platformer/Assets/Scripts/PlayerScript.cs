@@ -97,7 +97,7 @@ public class PlayerScript : MonoBehaviour
             GetComponent<Rigidbody2D>().velocity = Vector2.up * _jumpSpeed;
         }    
     }
-    
+    //this helped make the combat system https://www.youtube.com/watch?v=sPiVz1k-fEs
     void Attack() 
     {
         
@@ -108,10 +108,8 @@ public class PlayerScript : MonoBehaviour
             Debug.Log("collision");
             if (enemy.gameObject.layer == LayerMask.NameToLayer("Enemy")){
                 enemy.GetComponentInParent<EnemyScript>().Damage(_attackDamage);
-                Debug.Log("In enemy idf");
             } else if (enemy.gameObject.layer == LayerMask.NameToLayer("Boss")){
                 enemy.GetComponentInParent<Boss>().Damage(_attackDamage);
-                Debug.Log("In boss if");
             }
                 
         }

@@ -85,7 +85,7 @@ public class EnemyScript : MonoBehaviour
             FollowPlayer();
         }
     }
-
+    //Used this https://www.youtube.com/watch?v=nEYA3hzZHJ0 as tutorial
     void FollowPlayer()
     {
         if (_player.transform.position.x > transform.position.x){

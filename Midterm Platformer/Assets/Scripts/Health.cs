@@ -17,7 +17,7 @@ public class Health : MonoBehaviour
     {
         _health = 10;
     }
-
+    //Used this for reference https://www.youtube.com/watch?v=3uyolYVsiWc
    void Update()
     {
         int i;

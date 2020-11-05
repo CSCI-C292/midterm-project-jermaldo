@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    //Used this as reference https://www.youtube.com/watch?v=zc8ac_qUXQY
     public void PlayGame() 
     {
         SceneManager.LoadScene("Level1");
